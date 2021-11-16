@@ -1,4 +1,4 @@
-import template from '../partials/templates/projects.hbs';
+import tpl from '../partials/templates/projects.hbs';
 import { teamProjects, ownProjects } from './projects-db';
 
 const refs = {
@@ -6,5 +6,5 @@ const refs = {
   own: document.querySelector('.js-own'),
 };
 
-refs.team.innerHTML = template(teamProjects);
-refs.own.innerHTML = template(ownProjects);
+refs.team.innerHTML = tpl(teamProjects);
+refs.own.innerHTML = tpl(ownProjects);
