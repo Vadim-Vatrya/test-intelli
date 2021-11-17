@@ -22,11 +22,12 @@
 .contacts-icon {
   fill: $white-color;
   margin-right: 10px;
+}
 
-  &.linkedin {
-    border-radius: 2px;
-    background-color: $white-color;
-  }
+.contacts-icon-linkedin {
+  border-radius: 2px;
+  background-color: $white-color;
+  margin-right: 10px;
 }
 
 .contacts-link {
