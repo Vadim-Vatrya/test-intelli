@@ -4,6 +4,7 @@ import phoneBook from '../images/screenshots/phoonebook-screenshot.jpg';
 import movieFinder from '../images/screenshots/moviefinder-screenshot.jpg';
 import imageFinder from '../images/screenshots/imagefinder-screenshot.jpg';
 import webStudio from '../images/screenshots/webstudio-screenshot.jpg';
+import weather from '../images/screenshots/weather-screenshot.jpg';
 import description from '../images/description.svg';
 import tools from '../images/tools.svg';
 
@@ -59,6 +60,14 @@ export const ownProjects = [
     screenshot: webStudio,
     description: 'app for a web studio',
     stack: 'HTML, SCSS, JavaScript, GIT, Figma',
+    icons: { description, tools },
+  },
+  {
+    name: 'Weather forecast by city',
+    url: 'https://vadim-vatrya.github.io/weather-forecast-by-city/',
+    screenshot: weather,
+    description: 'Shows the current weather in the city',
+    stack: 'HTML, SCSS, JavaScript, ReactJS, React Hooks',
     icons: { description, tools },
   },
 ];
